@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="esp" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+   <script type="text/javascript" src="js/jkaolivos.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/eventos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Senshi homu JKA Olivos</title>
+  </head>
+  <body>
+<div class="hero">
+  <div class="global-container">
+    <header>
+      <nav>
+  <div class="nav-wrapper #424242 grey darken-3">
+    <a href="" class="brand-logo"><img src="Asset/Img/Logo2.jpeg" width="11%" high="11%"></img></a>
+    <a href="#" class="brand-logo center">Senshi homu JKA Olivos</a>
+    <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+      <i class="material-icons">menu</i>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="jkaolivos.html">Inicio</a></li>
+      <li><a href="Galeria.html">Galeria</a></li>
+      <li><a href="eventos.html">Proximos eventos</a></li>
+      <li><a href="examenes.html">Examenes</a></li>
+    </ul>
+  </div>
+</nav>
+<ul class="sidenav" id="mobile-nav">
+  <li><a href="">Galeria</a></li>
+  <li><a href="">Proximos eventos</a></li>
+  <li><a href="">Examenes</a></li>
+</ul>
+<script>
+         const sideNav = document.querySelector('.sidenav');
+ M.Sidenav.init(sideNav, {});
+
+ //slider
+    const slider = document.querySelector('.slider');
+    M.Slider.init(slider, {
+        indicators:false,
+        height:500,
+        transition:500,
+        interval:6000});
+ </script>
+ <div class="contenedor">
+   <header>
+     <h1>Proximos evento extra-escolares</h1>
+   </header>
+   <section class="main">
+     <article>
+       <h2 class="titulo">Haloween</h2>
+       <p>Esperen nuestra tradicional fiesta de Haloween.</p>
+       <p>Esperen mas informacion acerca de este evento</p>
+     </article>
+     <article>
+       <h2 class="titulo">La tradicional Posada</h2>
+       <p>Esperen nuestra tradicional Posada.</p>
+       <p>Esperen mas informacion acerca de este evento</p>
+     </article>
+   </section>
+   <aside>
+     <div class="widget">
+       <div class="imagen"></div>
+     </div>
+
+     <div class="widget">
+       <div class="imagen"></div>
+     </div>
+   </aside>
+   <footer>
+     <section class="links">
+       <p>Diseñado por RemgvirusWeb ©</p>
+     </section>
+   </footer>
+ </div>
+ </body>
+ </html>

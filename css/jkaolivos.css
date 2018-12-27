@@ -1,0 +1,149 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	display:flex;
+	flex-flow:row wrap;
+}
+
+
+
+#contenedor {
+  margin: auto;
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  display:flex;
+	flex-flow:row wrap;
+}
+#cabecera {
+  float:inherit;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  padding: 30px;
+}
+#menu {
+  float: left;
+  width: 15%;
+}
+#contenido {
+  float: left;
+  width: 85%;
+}
+#contenido #principal {
+  float: left;
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  padding: 30px;
+}
+#contenido #secundario {
+  float: left;
+  width: 20%;
+  margin-top: auto;
+}
+#pie {
+  clear: both;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  padding: 30px;
+}
+#calendar-container{
+    padding: 10px;
+    width: 210px;
+    height: 240px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    background-image: linear-gradient(#fff, #d3d3d3);
+    display:flex;
+  	flex-flow:row wrap;
+}
+
+#calendar-container>div{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#calendar-month-year{
+    margin: 5px;
+}
+
+#calendar-dates>table>tr>td{
+    padding: 5px;
+}
+.centro{
+  align-content: center;
+  margin: 10px auto;
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+body{
+  height: 100%;
+  background-image: url('../Asset/Img/Fondo.jpg');
+  background-position: center;
+  background-size: contain;
+}
+p{
+  color: white;
+  font-style: italic;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+    #contenedor{
+        width: 100%;
+        height: auto;
+    }
+    }
+
+    #container {
+      width: auto;
+      height: auto;
+      color: white;
+    }
+    #head{
+      text-align: left;
+      font-size: 4;
+    }
+    #content{
+      float: left;
+        width: 85%;
+    }
+    #content #principal {
+      float: left;
+      width: 80%;
+    }
+    #content #secundary {
+      float: left;
+      width: 20%;
+      margin: auto;
+      text-align: center;
+    }
+
+    #foot{
+      clear: both;
+    }
+    .row{
+      height: 50%  margin-top: 5%;
+    }
+    .col{
+      margin-top: auto;
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 5px;
+    }
+    .col input, .col span{
+      color: #f0f0f0;
+    }
+    .waves-effect{
+      margin-left: 150px;
+    }

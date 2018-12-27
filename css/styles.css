@@ -1,0 +1,60 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../Asset/Img/Fondo.jpg');
+  background-position: center;
+  background-size: contain;
+}
+.footer{
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+}
+.card{
+  background: none;
+  color: #f0f0f0;
+}
+.val{
+  color: #f0f0f0;
+}
+.slider{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-top: 5px solid #e0e0e0;
+  border-bottom: 5px solid #e0e0e0;
+}
+.data input{
+  color:#f0f0f0;
+}
+#calendar-container{
+    position: absolute;
+    top: 25%;
+    margin-left: 60%;
+    padding: 10px;
+    width: 220px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    background-image: linear-gradient(#fff, #d3d3d3);
+    display:flex;
+  	flex-flow:row wrap;
+}
+#calendar-container p{
+  color:#f0f0f0;
+}
+
+#calendar-container>div{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#calendar-month-year{
+    margin: 5px;
+}
+
+#calendar-dates>table>tr>td{
+    padding: 5px;
+}

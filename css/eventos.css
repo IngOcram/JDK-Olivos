@@ -1,0 +1,137 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 100%;
+  background-image: url('../Asset/Img/Fondo.jpg');
+  background-position: center;
+  background-size: contain;
+}
+p{
+  color: white;
+  font-style: italic;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+    #contenedor{
+        width: 100%;
+        height: auto;
+}
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  height: 100%;
+  background-image: url('../Asset/Img/Fondo.jpg');
+  background-position: center;
+  background-size: contain;
+}
+p{
+  color: white;
+  font-style: italic;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+    #contenedor{
+        width: 100%;
+        height: auto;
+        }
+        }
+
+h1{
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+p{
+  color:white;
+}
+.main {
+	padding:20px;
+	flex:1 1 70%;
+}
+
+.main article {
+	margin-bottom: 20px;
+	padding-bottom:20px;
+	border-bottom:1px solid white;
+}
+
+.main article:nth-last-child(1){
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom:none;
+}
+
+aside {
+	padding:20px;
+	flex:1 1 30%;
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:flex-start;
+}
+
+aside .widget {
+	height:150px;
+	margin:10px;
+}
+
+.contenedor {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	display:flex;
+	flex-flow:row wrap;
+}
+
+footer {
+	width: 100%;
+	padding:20px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+@media screen and (max-width: 800px) {
+	.contenedor {
+		flex-direction:column;
+	}
+
+	header {
+		flex-direction:column;
+		padding:0;
+	}
+
+  aside {
+		flex-direction:row;
+		flex:0;
+	}
+
+	aside .widget {
+		flex-grow:1;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	aside {
+		flex-direction:column;
+	}
+
+	footer {
+		justify-content:space-around;
+	}
+}
